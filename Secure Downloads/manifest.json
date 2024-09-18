@@ -1,0 +1,19 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "content_security_policy": "script-src 'self' https://www.virustotal.com https://ajax.googleapis.com https://ssl.google-analytics.com; object-src 'self';",
+   "description": "Scan your downloads and make sure you are secured",
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAslVRgtsn8D4hbfWCE/lpuw8bEoZJcujReqwzXtLdqL7Ik4TiJ3hRk1V3aH+zUbvK9a1kc9ux27wMQW93V8yQOuI0o8zDeV3I7cw+qablHN9xQPxdj/0auZxkZWLM16cUrYYXYlcI0Qv52O2OF9dsGfJJC/i9sHOfJCT+Y4s4ryFImsrgqZko9bt/fn/EYyr0vZYPjDTpUnOY7sUfW8+if9QJ9z2WbUawUcAdtw73uSl2tDPBM42NPdn3rZjpuLkx7ybFlKAFJ0era+zMUKwaIwSaPteWRr9HIqMkYmaJC26S35q8RRd39fEkK6kTUiqN7eW1Jc4FTMvXYbQMULwP6wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "38",
+   "name": "Secured Downloads",
+   "permissions": [ "downloads", "webNavigation", "notifications", "http://www.virustotal.com/", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.2",
+   "web_accessible_resources": [ "good.png", "bad.jpg", "unknown.jpg" ]
+}
